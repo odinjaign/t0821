@@ -11,16 +11,7 @@ import org.springframework.stereotype.Controller;
  * @date 2019/8/21 15:58
  */
 @Configuration
-@ComponentScan(
-        basePackages = "com.example.demo",
-        useDefaultFilters = false,
-        includeFilters = {
-                @ComponentScan.Filter(
-                        type = FilterType.ANNOTATION,
-                        classes = Controller.class
-                )
-        }
-)
+@ComponentScan(basePackages = "com.example.demo")
 public class SpringMvcConfig {
 }
 
