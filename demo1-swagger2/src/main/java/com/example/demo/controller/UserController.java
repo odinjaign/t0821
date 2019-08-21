@@ -1,6 +1,6 @@
-package demo.example.demo.controller;
+package com.example.demo.controller;
 
-import demo.example.demo.bean.User;
+import com.example.demo.bean.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -38,8 +38,6 @@ public class UserController {
         return "hello";
     }
 
-    //    @ApiOperation(value = "获取用户信息", notes = "根据用户id获取用户信息")
-//    @ApiImplicitParam(name = "id", value = "用户id", required = true, dataType = "Long", paramType = "path")
     @ApiOperation(value = "获取用户信息", notes = "根据用户id获取信息")
     @ApiImplicitParam(name = "id", value = "用户id", required = true, dataType = "Long", paramType = "path")
     @GetMapping("/{id}")

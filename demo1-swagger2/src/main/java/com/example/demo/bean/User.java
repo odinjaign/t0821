@@ -1,4 +1,4 @@
-package demo.example.demo.bean;
+package com.example.demo.bean;
 
 /**
  * @author 蒋加济
