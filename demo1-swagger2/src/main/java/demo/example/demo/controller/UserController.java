@@ -1,6 +1,6 @@
-package com.example.demo.controller;
+package demo.example.demo.controller;
 
-import com.example.demo.bean.User;
+import demo.example.demo.bean.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
